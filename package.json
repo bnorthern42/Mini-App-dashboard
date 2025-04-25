@@ -1,0 +1,28 @@
+{
+    "name": "mini-app-dashboard",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "prisma": "prisma"
+    },
+    "dependencies": {
+        "@monaco-editor/react": "^4.7.0",
+        "@prisma/client": "^5.10.2",
+        "axios": "^1.6.0",
+        "jsonwebtoken": "^9.0.2",
+        "monaco-editor": "^0.52.2",
+        "next": "14.0.4",
+        "prisma": "^5.10.2",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.5",
+        "@types/react": "^18.2.22",
+        "@types/react-dom": "^18.2.7",
+        "typescript": "^5.3.3"
+    }
+}

@@ -1,0 +1,33 @@
+/* page.module.css */
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: var(--gap);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+
+  .card {
+    margin-top: var(--gap);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .logoutLink {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    text-align: left;
+  }
